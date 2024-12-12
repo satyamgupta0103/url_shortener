@@ -1,0 +1,11 @@
+.container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputContainer h1 {
+  font-size: 3.5rem;
+}
