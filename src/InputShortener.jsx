@@ -6,8 +6,10 @@ function InputShortener() {
       <h1>
         URL <span>Shortener</span>
       </h1>
-      <input type="text" placeholder="Paste a link to shorten here"></input>
-      <button>shorten</button>
+      <div>
+        <input type="text" placeholder="Paste a link to shorten here"></input>
+        <button>shorten</button>
+      </div>
     </div>
   );
 }
