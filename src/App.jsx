@@ -4,13 +4,18 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import InputShortener from "./InputShortener";
 import BackgroundAnimation from "./BackgroundAnimation";
+import LinkResult from "./LinkResult";
+import axios from "axios";
 
 function App() {
+  const [inputValue, setInputValue] = useState("");
+
   return (
     <>
       <div className="container">
-        <InputShortener />
+        <InputShortener setInputValue={setInputValue} />
         <BackgroundAnimation />
+        <LinkResult inputValue={inputValue} />
       </div>
     </>
   );
